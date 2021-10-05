@@ -1,0 +1,74 @@
+name: Community Membership Request
+description: Officially join the Tinkerbell community
+title: "[Organization/member]: request for <alias>"
+labels: ["kind/organization"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your willingness to participate in the Tinkerbell community!
+  - id: github
+    type: input
+    attributes:
+      label: GitHub Username
+      placeholder: e.g. @example_user
+    validations:
+      required: true
+  - type: dropdown
+    id: Role
+    attributes:
+      label: Role
+      description: |
+        What role would you like to participate in? Please see the [community roles](https://github.com/tinkerbell/proposals/blob/main/proposals/0024/GOVERNANCE.md#community-roles) for responsibilities and requirements of the various roles
+      options:
+        - Member
+        - Committer
+        - Maintainer
+    validations:
+      required: true
+  - id: requirements
+    type: checkboxes
+    attributes:
+      label: Requirements
+      description: Please ensure you meet the following criteria
+      options:
+      - label: I have reviewed the [community membership guidelines](https://github.com/tinkerbell/proposals/blob/main/proposals/0024/GOVERNANCE.md)
+        required: true
+      - label: I have [enabled 2FA on my GitHub account](https://github.com/settings/security)
+        required: true
+      - label: I have subscribed to the [tinkerbell-contributors e-mail list](https://groups.google.com/g/tinkerbell-contributors)
+        required: true
+      - label: I am actively contributing to 1 or more Tinkerbell subprojects
+        required: true
+      - label: I have two sponsors that meet the sponsor requirements listed in the community membership guidelines
+        required: true
+      - label: I have spoken to my sponsors ahead of this application, and they have agreed to sponsor my application
+        required: true
+      - label: "**OPTIONAL:** I have taken the [Inclusive Open Source Community Orientation course](https://training.linuxfoundation.org/training/inclusive-open-source-community-orientation-lfc102/)"
+  - id: sponsor_1
+    type: input
+    attributes:
+      label: "Sponsor 1"
+      description: GitHub handle of your sponsor
+      placeholder: e.g. @sponsor-1
+    validations:
+      required: true
+  - id: sponsor_2
+    type: input
+    attributes:
+      label: "Sponsor 2"
+      description: GitHub handle of your sponsor
+      placeholder: e.g. @sponsor-2
+    validations:
+      required: true
+  - id: contributions
+    type: textarea
+    attributes:
+      label: List of contributions to the Tinkerbell project
+      value: |
+        \# Issues or PRs created
+        - tinkerbell/<repo>#<issue/pull number>
+        \# Issues or PRs reviewed
+        - tinkerbell/<repo>#<issue/pull number>
+    validations:
+      required: true
