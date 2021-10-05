@@ -1,1 +1,3 @@
-ARCHIVED in favor of [tinkerbell/.github](https://github.com/tinkerbell/.github)
+# Tinkerbell GitHub Organization
+
+This repository contains the metadata configuration for the Tinkerbell GitHub Organizations.
