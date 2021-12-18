@@ -7,5 +7,5 @@ This file lists the maintainers of the overall Tinkerbell project. The responsib
 | Name | GitHub ID | Affiliation |
 | ---- | --------- | ----------- |
 | [Dan Finneran](mailto:daniel.finneran@gmail.com) | [thebsdbox](https://github.com/thebsdbox) | Equinix Metal |
+| [Marky Jackson](mailto:majackson@equinix.com) | [markyjackson-taulia](https://github.com/markyjackson-taulia) | Equinix Metal |
 | [Manuel Mendez](mailto:mmendez@equinix.com) | [mmlb](https://github.com/mmlb) | Equinix Metal |
-| [Thomas Strömberg](mailto:tstromberg@equinix.com) | [tstromberg](https://github.com/tstromberg) | Equinix Metal |
