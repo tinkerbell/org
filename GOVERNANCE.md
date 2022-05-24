@@ -180,7 +180,7 @@ ___
 
 Admins are the GitHub Administrators for the Tinkerbell project.
 
-**Defined by:** _owner_ role in the Tinkerbell GitHub organization.
+**Defined by:** _[owner](https://github.com/orgs/tinkerbell/people?query=role%3Aowner)_ role in the Tinkerbell GitHub organization.
 
 ### Requirements
 
