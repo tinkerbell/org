@@ -194,6 +194,7 @@ This team is responsible for holding Org Owner privileges over the Tinkerbell or
 Admins are responsible for:
 
 - Administrative tasks in the Tinkerbell Github organization
+- Being the point of contact with the CNCF (the CNCF calls this group "maintainers", see [here](https://github.com/cncf/foundation/blob/main/project-maintainers.csv))
 
 ___
 
