@@ -196,6 +196,7 @@ Admins are responsible for:
 - Administrative tasks in the Tinkerbell Github organization
 - Being the point of contact with the CNCF (the CNCF calls this group "maintainers", see [here](https://github.com/cncf/foundation/blob/main/project-maintainers.csv))
 
+Some administrative responsibilities are handled by contributors that do not meet the typical maintainer requirements with regard to code review and contributions.  These contributors are nonetheless recognized and extended admin access as is necessary to fulfill the needs of the community including infrastructure, operational, security, and billing functions.  These admins may require, for example, GitHub owner access, access to credentials, and CNCF maintainers list access.
 ___
 
 ## Inactive members
