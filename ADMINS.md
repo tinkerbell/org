@@ -7,3 +7,5 @@ This file lists the admins of the overall Tinkerbell project. The responsibiliti
 - [jacobweinstock](https://github.com/jacobweinstock)
 - [jeremytanner](https://github.com/jeremytanner)
 - [displague](https://github.com/displague)
+- [matoszz](https://github.com/matoszz)
+- [caniszczyk](https://github.com/caniszczyk)
