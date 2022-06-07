@@ -23,7 +23,7 @@ The following criteria is to be used when considering an individual for a role.
 | -----       | ---------------- | ------------ | ------- |
 | Contributor | Submit contributions | Signed DCO | Registered GitHub User |
 | Member      | Issue and discussion administration, PR reviewer | History of activity, good judgement, contribution in the community and the repositories, and sponsored by 2 Reviewers | Tinkerbell GitHub org member |
-| Reviewer   | review code for quality and correctness | Same as Member, shows leadership in the community and the repositories, and sponsored by a Approver/Maintainers | [OWNERS] file, reviewer entry |
+| Reviewer   | Review code for quality and correctness | Same as Member, shows leadership in the community and the repositories, and sponsored by a Approver/Maintainers | [OWNERS] file, reviewer entry |
 | Approver   | Right to make changes to the code bases, merge pull requests, etc | Same as Reviewer, shows leadership in the community and the repositories, and sponsored by an Approver/Maintainer | [OWNERS] file, Approver entry |
 | Maintainer  | Voting privileges (when required), sets direction and priorities | Same as Approver, demonstrated responsibility and excellent technical judgement for the project, and voted in by existing Maintainers | [OWNERS] file, maintainer entry |
 
@@ -80,9 +80,7 @@ Reviewer status is scoped to the repo/code in the Tinkerbell org.
 
 The following applies to the repo or part of the codebase for which one would be a Reviewer in an OWNERS file.
 
-- member for at least 3 months
-- Primary reviewer for at least 5 PRs to the codebase
-- Reviewed or merged at least 10 substantial PRs to the codebase
+- Primary reviewer for at least 3 non-trivial PRs to the codebase; for example, spelling corrections are trivial, internal construct refactors are non-trivial.
 - Knowledgeable about the codebase
 - Sponsored by an Approver/Maintainer
   - With no objections from another Approver/Maintainer
@@ -118,9 +116,10 @@ Approver status is scoped to the repo/code in the Tinkerbell org.
 
 The following applies to the repo or part of the codebase for which one would be a Approver in an OWNERS file.
 
-- Reviewer for at least 3 months
-- Primary reviewer for at least 5 PRs to the codebase
-- Reviewed or merged at least 20 substantial PRs to the codebase
+- Reviewer for at least 1 month
+- Shallow understanding of the technical goals and direction of the repository
+- Shallow understanding of the technical domain of the repository
+- Reviewed or merged at least 3 substantial PRs to the codebase such as significant re-design or whole new features
 - Nominated by a repo maintainer
   - With no objections from another repo maintainers
   - Done through PR to update the OWNERS file
@@ -152,6 +151,7 @@ Maintainers of a repository are typically limited to a relatively small group of
 
 The following apply to the repository for which one would be an owner.
 
+- Approver for at least 2 months
 - Deep understanding of the technical goals and direction of the repository
 - Deep understanding of the technical domain of the repository
 - Sustained contributions to design and direction by doing all of:
@@ -186,7 +186,7 @@ Admins are the GitHub Administrators for the Tinkerbell project.
 
 This team is responsible for holding Org Owner privileges over the Tinkerbell org.
 
-- Nominations to this team will come from the maintainers and require confirmation from the maintainers and Approvers before taking effect.
+- Nominations to this team will come from the Maintainers and require confirmation from the Maintainers and Approvers before taking effect.
 - Maintain active membership in the Tinkerbell community.
 
 ### Responsibilities and Privileges
