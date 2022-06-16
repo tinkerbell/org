@@ -19,13 +19,13 @@ The following criteria is to be used when considering an individual for a role.
 - demonstrated history of "playing nice" in the community
 - amount and consistency of contributions and activity
 
-| Role        | Responsibilities | Requirements | Defined by |
-| -----       | ---------------- | ------------ | ------- |
-| Contributor | Submit contributions | Signed DCO | Registered GitHub User |
-| Member      | Issue and discussion administration, PR reviewer | History of activity, good judgement, contribution in the community and the repositories, and sponsored by 2 Reviewers | Tinkerbell GitHub org member |
-| Reviewer   | Review code for quality and correctness | Same as Member, shows leadership in the community and the repositories, and sponsored by a Approver/Maintainers | [OWNERS] file, reviewer entry |
-| Approver   | Right to make changes to the code bases, merge pull requests, etc | Same as Reviewer, shows leadership in the community and the repositories, and sponsored by an Approver/Maintainer | [OWNERS] file, Approver entry |
-| Maintainer  | Voting privileges (when required), sets direction and priorities | Same as Approver, demonstrated responsibility and excellent technical judgement for the project, and voted in by existing Maintainers | [OWNERS] file, maintainer entry |
+| Role        | Responsibilities                                                  | Requirements                                                                                                                          | Defined by                      |
+| ----------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
+| Contributor | Submit contributions                                              | Signed DCO                                                                                                                            | Registered GitHub User          |
+| Member      | Issue and discussion administration, PR reviewer                  | History of activity, good judgement, contribution in the community and the repositories, and sponsored by 2 Reviewers                 | Tinkerbell GitHub org member    |
+| Reviewer    | Review code for quality and correctness                           | Same as Member, shows leadership in the community and the repositories, and sponsored by a Approver/Maintainers                       | [OWNERS] file, reviewer entry   |
+| Approver    | Right to make changes to the code bases, merge pull requests, etc | Same as Reviewer, shows leadership in the community and the repositories, and sponsored by an Approver/Maintainer                     | [OWNERS] file, Approver entry   |
+| Maintainer  | Voting privileges (when required), sets direction and priorities  | Same as Approver, demonstrated responsibility and excellent technical judgement for the project, and voted in by existing Maintainers | [OWNERS] file, maintainer entry |
 
 ## Member
 
@@ -38,7 +38,7 @@ Members are expected to remain active contributors to the community.
 ### Requirements
 
 - Enabled [two-factor authentication] on their GitHub account
-- Have made multiple contributions to the project or community.  Contributions may include, but are not limited to:
+- Have made multiple contributions to the project or community. Contributions may include, but are not limited to:
   - Authoring or reviewing PRs on GitHub
   - Filing or commenting on issues on GitHub
   - Contributing to community discussions (e.g. meetings, Slack, email discussion forums)
@@ -110,7 +110,7 @@ Approvers are able to review code for quality and correctness on some part of Ti
 **Defined by:** _Approvers_ entry in an OWNERS file in a repo owned by the Tinkerbell project.
 Approver status is scoped to the repo/code in the Tinkerbell org.
 
->Note: Acceptance of code contributions requires at least one Approver/maintainer in addition to the assigned reviewers.
+> Note: Acceptance of code contributions requires at least one Approver/maintainer in addition to the assigned reviewers.
 
 ### Requirements
 
@@ -196,12 +196,13 @@ Admins are responsible for:
 - Administrative tasks in the Tinkerbell Github organization
 - Being the point of contact with the CNCF (the CNCF calls this group "maintainers", see [here](https://github.com/cncf/foundation/blob/main/project-maintainers.csv))
 
-Some administrative responsibilities are handled by contributors that do not meet the typical maintainer requirements with regard to code review and contributions.  These contributors are nonetheless recognized and extended admin access as is necessary to fulfill the needs of the community including infrastructure, operational, security, and billing functions.  These admins may require, for example, GitHub owner access, access to credentials, and CNCF maintainers list access.
+Some administrative responsibilities are handled by contributors that do not meet the typical maintainer requirements with regard to code review and contributions. These contributors are nonetheless recognized and extended admin access as is necessary to fulfill the needs of the community including infrastructure, operational, security, and billing functions. These admins may require, for example, GitHub owner access, access to credentials, and CNCF maintainers list access.
+
 ___
 
 ## Inactive members
 
->This inactive members section follows the guideline defined in the Kubernetes community<sup>[5]</sup>
+> This inactive members section follows the guideline defined in the Kubernetes community<sup>[5]</sup>
 
 _Members are continuously active contributors in the community._
 
@@ -237,4 +238,3 @@ before being able to contribute effectively.
 [3]: https://opensource.guide/leadership-and-governance/#what-are-some-of-the-common-governance-structures-for-open-source-projects
 [4]: https://producingoss.com/html-chunk/Approvers.html
 [5]: https://github.com/kubernetes/community/blob/master/community-membership.md
-
