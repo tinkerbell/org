@@ -19,13 +19,13 @@ The following criteria is to be used when considering an individual for a role.
 - demonstrated history of "playing nice" in the community
 - amount and consistency of contributions and activity
 
-| Role        | Responsibilities                                                  | Requirements                                                                                                                          | Defined by                      |
-| ----------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- |
-| Contributor | Submit contributions                                              | Signed DCO                                                                                                                            | Registered GitHub User          |
-| Member      | Issue and discussion administration, PR reviewer                  | History of activity, good judgement, contribution in the community and the repositories, and sponsored by 2 Reviewers                 | Tinkerbell GitHub org member    |
-| Reviewer    | Review code for quality and correctness                           | Same as Member, shows leadership in the community and the repositories, and sponsored by a Approver/Maintainers                       | [OWNERS] file, reviewer entry   |
-| Approver    | Right to make changes to the code bases, merge pull requests, etc | Same as Reviewer, shows leadership in the community and the repositories, and sponsored by an Approver/Maintainer                     | [OWNERS] file, Approver entry   |
-| Maintainer  | Voting privileges (when required), sets direction and priorities  | Same as Approver, demonstrated responsibility and excellent technical judgement for the project, and voted in by existing Maintainers | [OWNERS] file, maintainer entry |
+| Role        | Responsibilities                                                  | Requirements                                                                                                                          | Defined by                                  |
+| ----------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Contributor | Submit contributions                                              | Signed DCO                                                                                                                            | Registered GitHub User                      |
+| Member      | Issue and discussion administration, PR reviewer                  | History of activity, good judgement, contribution in the community and the repositories, and sponsored by 2 Reviewers                 | Tinkerbell GitHub org member                |
+| Reviewer    | Review code for quality and correctness                           | Same as Member, shows leadership in the community and the repositories, and sponsored by a Approver/Maintainers                       | .github/settings.yml file, reviewer entry   |
+| Approver    | Right to make changes to the code bases, merge pull requests, etc | Same as Reviewer, shows leadership in the community and the repositories, and sponsored by an Approver/Maintainer                     | .github/settings.yml file, approver entry   |
+| Maintainer  | Voting privileges (when required), sets direction and priorities  | Same as Approver, demonstrated responsibility and excellent technical judgement for the project, and voted in by existing Maintainers | .github/settings.yml file, maintainer entry |
 
 ## Member
 
@@ -46,7 +46,7 @@ Members are expected to remain active contributors to the community.
 - Actively contributing to 1 or more repository.
 - Sponsored by 2 Reviewers. **Note the following requirements for sponsors**:
   - Sponsors must have close interactions with the prospective member - e.g. code/design/proposal review, coordinating on issues, etc.
-  - Sponsors must be reviewers, approvers, or maintainers in at least 1 OWNERS file in any repo in the [Tinkerbell org].
+  - Sponsors must be reviewers, approvers, or maintainers in at least 1 .github/settings.yml file in any repo in the [Tinkerbell org].
   - Sponsors should strive to be from multiple member companies to demonstrate integration across community.
 - **[Open an issue]() [membership request] against the Tinkerbell/org repo**
   - Ensure your sponsors are @mentioned on the issue
@@ -73,23 +73,23 @@ ___
 
 Reviewers are able to review code for quality and correctness on some part of the Tinkerbell project. They are knowledgeable about both the codebase and software engineering principles.
 
-**Defined by:** _reviewers_ entry in an OWNERS file in a repo owned by the Tinkerbell project.
+**Defined by:** _reviewers_ entry in the .github/settings.yml file in the repo owned by the Tinkerbell project.
 Reviewer status is scoped to the repo/code in the Tinkerbell org.
 
 ### Requirements
 
-The following applies to the repo or part of the codebase for which one would be a Reviewer in an OWNERS file.
+The following applies to the repo or part of the codebase for which one would be a Reviewer in a .github/settings.yml file.
 
 - Primary reviewer for at least 3 non-trivial PRs to the codebase; for example, spelling corrections are trivial, internal construct refactors are non-trivial.
 - Knowledgeable about the codebase
 - Sponsored by an Approver/Maintainer
   - With no objections from another Approver/Maintainer
-  - Done through PR to update the OWNERS file
+  - Done through PR to update the .github/settings.yml file
 - May either self-nominate, be nominated by a Approver/Maintainer
 
 ### Responsibilities and Privileges
 
-The following apply to the repo or the part of the codebase for which one would be a reviewer in an OWNERS file.
+The following apply to the repo or the part of the codebase for which one would be a reviewer in a .github/settings.yml file.
 
 - Tests are automatically run for Pull Requests from members of the Tinkerbell GitHub organization
 - Reviewer role may be a precondition to accepting large code contributions
@@ -107,14 +107,14 @@ ___
 
 Approvers are able to review code for quality and correctness on some part of Tinkerbell. They are knowledgeable about both the codebase and software engineering principles.
 
-**Defined by:** _Approvers_ entry in an OWNERS file in a repo owned by the Tinkerbell project.
+**Defined by:** _approvers_ entry in the .github/settings.yml file in the repo owned by the Tinkerbell project.
 Approver status is scoped to the repo/code in the Tinkerbell org.
 
 > Note: Acceptance of code contributions requires at least one Approver/maintainer in addition to the assigned reviewers.
 
 ### Requirements
 
-The following applies to the repo or part of the codebase for which one would be a Approver in an OWNERS file.
+The following applies to the repo or part of the codebase for which one would be a Approver in a .github/settings.yml file.
 
 - Reviewer for at least 1 month
 - Shallow understanding of the technical goals and direction of the repository
@@ -122,11 +122,11 @@ The following applies to the repo or part of the codebase for which one would be
 - Reviewed or merged at least 3 substantial PRs to the codebase such as significant re-design or whole new features
 - Nominated by a repo maintainer
   - With no objections from another repo maintainers
-  - Done through PR to update the OWNERS file
+  - Done through PR to update the .github/settings.yml file
 
 ### Responsibilities and Privileges
 
-The following apply to the repo or the part of the codebase for which one would be a Approver in an OWNERS file.
+The following apply to the repo or the part of the codebase for which one would be a Approver in a .github/settings.yml file.
 
 - Approver status may be a precondition to accepting large code contributions
 - Demonstrate sound technical judgement
@@ -142,7 +142,7 @@ ___
 
 Maintainers are the technical authority for a repository in the Tinkerbell project. They _MUST_ have demonstrated both good judgement and responsibility towards the health of that repository. Maintainers _MUST_ set technical direction and make or approve design decisions for their repository - either directly or through delegation of these responsibilities.
 
-**Defined by:** _maintainers_ entry in an OWNERS file in a repo owned by the Tinkerbell project.
+**Defined by:** _maintainers_ entry in the .github/settings.yml file in the repo owned by the Tinkerbell project.
 Maintainer status is scoped to the repo/code in the Tinkerbell org.
 
 ### Requirements
