@@ -210,7 +210,7 @@ An individual to be fast tracked _should_ satisfy one or more of the following c
 - Has demonstratable knowledge in closely related projects that translates to the target project. For example, Kubernetes controller knowledge may translate between projects.
 - Meets all the requirements of roles with lesser responsibilities. For example, a fast track to Approver may occur if an individual meets all the Reviewer and Approver requirements in a short space of time (typically less than the timelines outlined for each role).
 
-An individual to be fast tracked _must_ have expressed support from a majority of existing maintainers.
+An individual to be fast tracked _must_ have expressed support from existing maintainers or admins from the Tinkerbell org.
 
 ___
 
