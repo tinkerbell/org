@@ -198,6 +198,20 @@ Admins are responsible for:
 
 Some administrative responsibilities are handled by contributors that do not meet the typical maintainer requirements with regard to code review and contributions. These contributors are nonetheless recognized and extended admin access as is necessary to fulfill the needs of the community including infrastructure, operational, security, and billing functions. These admins may require, for example, GitHub owner access, access to credentials, and CNCF maintainers list access.
 
+---
+
+## Role Fast Tracking
+
+In certain circumstances it may be appropriate to fast track individuals into elevated roles. 
+
+An individual to be fast tracked _should_ satisfy one or more of the following criteria:
+
+- Has contributed substantially to the project and shown good judgment as determined by existing maintainers.
+- Has demonstratable knowledge in closely related projects that translates to the target project. For example, Kubernetes controller knowledge may translate between projects.
+- Meets all the requirements of roles with lesser responsibilities. For example, a fast track to Approver may occur if an individual meets all the Reviewer and Approver requirements in a short space of time (typically less than the timelines outlined for each role).
+
+An individual to be fast tracked _must_ have expressed support from existing maintainers or admins from the Tinkerbell org.
+
 ___
 
 ## Inactive members
